@@ -360,7 +360,7 @@ body {
   background-color: #ffffffde;
   border-radius: 20px;
   border: none;
-  font-size: 32px;
+  font-size: 40px;
 }
 
 .btn:focus {
@@ -403,15 +403,15 @@ body {
           column-gap: 15px;
 }
 
-.main .container .calc .calc__grid .calc__input {
+.main .container .calc .calc__grid #display {
+  color: #000000;
   background-color: #704e4e;
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 5;
-  text-align: center;
+  text-align: right;
   font-size: 40px;
   padding: 15px 5px;
-  word-wrap: break-word;
 }
 
 .main .container .calc .calc__grid #zero {
