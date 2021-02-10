@@ -1,6 +1,8 @@
 @import "_normalize.scss";
+
 body{
     background-color: rgb(238, 238, 238);
+    user-select: none;
 }
 
 .btn{
@@ -12,21 +14,20 @@ body{
     &:focus{
         outline: none;
     }
+
     &:hover{
         background-color: #ffffffcc;
-        
     }
+
     &:active{
         box-shadow: 2px 2px 2px #aaacab;
     }
 }
 
-
-
 .main{
 
     .container{
-        padding: 100px 0;
+        padding: 75px 0 0 0;
 
         .calc{
             margin: 0 auto;
@@ -48,17 +49,19 @@ body{
                     background-color: #704e4e;
                     grid-column-start: 1;
                     grid-column-end: 5;
+                    text-align: center;
+                    font-size: 40px;
+                    padding: 15px 5px;
+                    word-wrap: break-word;
                 }
 
-                .calc__btn--ce{
-                }
-                .calc__btn--0{
+                #zero{
                     grid-row-start: 6;
-                    grid-row-end: 7;
+                    grid-row-end: 7;    
                     grid-column-start: 1;
                     grid-column-end: 3;
                 }
-                .calc__btn--result{
+                #result{
                     grid-row-start: 5;
                     grid-row-end: 7;
                     grid-column-start: 4;
