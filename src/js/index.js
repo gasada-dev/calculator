@@ -1,13 +1,13 @@
-const numberBtns = document.querySelectorAll('.number'),
-    operationBtns = document.querySelectorAll('.operation'),
-    resultBtn = document.getElementById('result'),
-    decimalBtn = document.getElementById('decimal'),
-    clearBtns = document.querySelectorAll('.clear'),
-    display = document.getElementById('display');
+const numberBtns = document.querySelectorAll('.number');
+const operationBtns = document.querySelectorAll('.operation');
+const resultBtn = document.getElementById('result');
+const decimalBtn = document.getElementById('decimal');
+const clearBtns = document.querySelectorAll('.clear');
+const display = document.getElementById('display');
 
-let memoryCurrentNumber = 0,
-    memoryNewNumber = false,
-    memoryPendingOperation = '';
+let memoryCurrentNumber = 0;
+let memoryNewNumber = false;
+let memoryPendingOperation = '';
 
 for (let i = 0; i < numberBtns.length; i++) {
     let numberBtn = numberBtns[i];
@@ -99,7 +99,7 @@ function clear(id) {
 };
 
 function decimal() {
-    let localDecimalMemory = display.value
+    let localDecimalMemory = display.value;
     if (memoryNewNumber) {
         localDecimalMemory = '0.';
         memoryNewNumber = false;
