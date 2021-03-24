@@ -1,11 +1,11 @@
 @import "_normalize.scss";
 
-body{
+body {
     background-color: rgb(238, 238, 238);
     user-select: none;
 }
 
-.btn{
+.btn {
     background-color: #ffffffde;
     border-radius: 20px;
     border: none;
@@ -24,19 +24,19 @@ body{
     }
 }
 
-.main{
+.main {
 
-    .container{
+    .container {
         padding: 75px 0 0 0;
 
-        .calc{
+        .calc {
             margin: 0 auto;
             height: 675px;
             width: 400px;
             background-color: #e03434;
             border-radius: 20px;
 
-            .calc__grid{
+            .calc__grid {
                 padding: 40px 20px;
                 display: grid;
                 width: 100%;
@@ -46,7 +46,7 @@ body{
                 row-gap: 30px;
                 column-gap: 15px;
 
-                #display{
+                .display {
                     color: #000000;
                     background-color: #704e4e;
                     grid-column-start: 1;
@@ -56,14 +56,14 @@ body{
                     padding: 15px 5px;
                 }
 
-                #zero{
+                .zero {
                     grid-row-start: 6;
                     grid-row-end: 7;    
                     grid-column-start: 1;
                     grid-column-end: 3;
                 }
 
-                #result{
+                .result {
                     grid-row-start: 5;
                     grid-row-end: 7;
                     grid-column-start: 4;

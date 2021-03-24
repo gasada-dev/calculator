@@ -403,7 +403,7 @@ body {
           column-gap: 15px;
 }
 
-.main .container .calc .calc__grid #display {
+.main .container .calc .calc__grid .display {
   color: #000000;
   background-color: #704e4e;
   -ms-grid-column: 1;
@@ -414,7 +414,7 @@ body {
   padding: 15px 5px;
 }
 
-.main .container .calc .calc__grid #zero {
+.main .container .calc .calc__grid .zero {
   -ms-grid-row: 6;
       grid-row-start: 6;
   grid-row-end: 7;
@@ -423,7 +423,7 @@ body {
   grid-column-end: 3;
 }
 
-.main .container .calc .calc__grid #result {
+.main .container .calc .calc__grid .result {
   -ms-grid-row: 5;
       grid-row-start: 5;
   grid-row-end: 7;
